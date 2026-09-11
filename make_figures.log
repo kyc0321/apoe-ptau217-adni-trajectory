@@ -1,0 +1,32 @@
+boundary (singular) fit: see help('isSingular')
+boundary (singular) fit: see help('isSingular')
+boundary (singular) fit: see help('isSingular')
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+警告訊息：
+1: 於 grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, ：
+  conversion failure on 'APOE ε4 carrier' in 'mbcsToSbcs': for ε (U+03B5)
+2: 於 grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, ：
+  conversion failure on 'APOE ε4 carrier' in 'mbcsToSbcs': for ε (U+03B5)
+Saved: /Users/kuan-yuchu/Desktop/LOAD/figures/Figure2_spaghetti_GFAP_pTau.tiff
+警告訊息：
+於 tiff_dev(..., res = dpi, units = "in")：
+  compression is not supported for type = "quartz"
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+Saved: /Users/kuan-yuchu/Desktop/LOAD/figures/Figure3_slope_BLUPs_vs_outcomes.tiff
+警告訊息：
+於 tiff_dev(..., res = dpi, units = "in")：
+  compression is not supported for type = "quartz"
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+Saved: /Users/kuan-yuchu/Desktop/LOAD/figures/Figure4_ptau217_cross_assay.tiff
+警告訊息：
+於 tiff_dev(..., res = dpi, units = "in")：
+  compression is not supported for type = "quartz"
+
+All figures saved to: /Users/kuan-yuchu/Desktop/LOAD/figures 

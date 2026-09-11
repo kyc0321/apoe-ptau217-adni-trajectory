@@ -1,0 +1,7 @@
+"outcome","predictor","mean","lo","hi","P","rhat","note","q_BH","q_Bonf"
+"adas13","log_gfap",NA,NA,NA,NA,NA,"failed",NA,NA
+"adas13","log_ptau",NA,NA,NA,NA,NA,"failed",NA,NA
+"mmse","log_gfap",NA,NA,NA,NA,NA,"failed",NA,NA
+"mmse","log_ptau",NA,NA,NA,NA,NA,"failed",NA,NA
+"hippo_ratio","log_gfap",NA,NA,NA,NA,NA,"failed",NA,NA
+"hippo_ratio","log_ptau",NA,NA,NA,NA,NA,"failed",NA,NA

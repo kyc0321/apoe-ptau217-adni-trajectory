@@ -1,0 +1,110 @@
+
+=== PHASE II sensitivity (random intercept only) ===
+
+--- log GFAP ---
+                Estimate Std. Error t value
+(Intercept)       2.0626     0.9383  2.1982
+time_yr           0.0492     0.0129  3.8220
+apoe_e4          -0.0183     0.1200 -0.1526
+age_baseline      0.0399     0.0110  3.6356
+female            0.1033     0.1067  0.9677
+educ             -0.0095     0.0252 -0.3771
+diagMCI           0.1535     0.1112  1.3805
+diagAD            0.2477     0.2444  1.0133
+time_yr:apoe_e4   0.0398     0.0194  2.0488
+
+--- log p-tau217 ---
+                Estimate Std. Error t value
+(Intercept)      -4.8262     1.4043 -3.4366
+time_yr           0.0901     0.0119  7.5713
+apoe_e4           0.4427     0.1720  2.5736
+age_baseline      0.0383     0.0165  2.3290
+female           -0.2735     0.1598 -1.7108
+educ             -0.0127     0.0378 -0.3349
+diagMCI           0.4292     0.1665  2.5782
+diagAD            0.5523     0.3657  1.5101
+time_yr:apoe_e4   0.0109     0.0180  0.6039
+boundary (singular) fit: see help('isSingular')
+boundary (singular) fit: see help('isSingular')
+
+=== PHASE III sensitivity (random intercept only) ===
+
+--- ADAS13 ~ time ×  gfap_slope ---
+                   Estimate Std. Error t value
+(Intercept)         -7.2943    12.2094 -0.5974
+time_yr              0.1975     0.4117  0.4797
+gfap_slope          92.0909    55.6621  1.6545
+age_baseline         0.2772     0.1411  1.9641
+female              -3.2323     1.3722 -2.3556
+educ                -0.5199     0.3219 -1.6149
+diagMCI              7.9376     1.4225  5.5801
+diagAD              17.5591     3.1593  5.5579
+apoe_e4              1.5678     1.3661  1.1476
+time_yr:gfap_slope  11.5693     8.3165  1.3911
+
+--- ADAS13 ~ time ×  ptau_slope ---
+                   Estimate Std. Error t value
+(Intercept)        -13.3230    12.3818 -1.0760
+time_yr             -2.8984     0.8709 -3.3282
+ptau_slope         119.1317    61.0320  1.9520
+age_baseline         0.2699     0.1325  2.0372
+female              -3.3335     1.2888 -2.5865
+educ                -0.5065     0.3021 -1.6765
+diagMCI              8.2235     1.3364  6.1532
+diagAD              17.7970     2.9676  5.9971
+apoe_e4              1.4332     1.2830  1.1171
+time_yr:ptau_slope  40.8101     9.6657  4.2222
+
+--- MMSE ~ time ×  gfap_slope ---
+                   Estimate Std. Error t value
+(Intercept)         30.1193     3.7846  7.9583
+time_yr              0.1425     0.1622  0.8790
+gfap_slope         -22.8565    17.9765 -1.2715
+age_baseline        -0.0616     0.0437 -1.4107
+female               1.4531     0.4221  3.4423
+educ                 0.2667     0.0984  2.7097
+diagMCI             -1.7951     0.4374 -4.1044
+diagAD              -4.7399     0.9543 -4.9671
+apoe_e4             -0.9973     0.4201 -2.3736
+time_yr:gfap_slope  -8.6420     3.2686 -2.6439
+
+--- MMSE ~ time ×  ptau_slope ---
+                   Estimate Std. Error t value
+(Intercept)         32.1816     3.9993  8.0469
+time_yr              0.5680     0.3537  1.6058
+ptau_slope         -37.6577    20.4420 -1.8422
+age_baseline        -0.0574     0.0425 -1.3511
+female               1.4362     0.4103  3.5000
+educ                 0.2633     0.0956  2.7547
+diagMCI             -1.8535     0.4255 -4.3560
+diagAD              -4.7492     0.9266 -5.1253
+apoe_e4             -0.9536     0.4084 -2.3350
+time_yr:ptau_slope  -9.3627     3.9168 -2.3904
+
+--- HV_adj ~ time ×  gfap_slope ---
+                     Estimate Std. Error t value
+(Intercept)        11979.3744  1648.3793  7.2674
+time_yr             -136.0377    40.6964 -3.3427
+gfap_slope          -380.4435  6983.9647 -0.0545
+age_baseline         -54.7483    19.0834 -2.8689
+female               565.0935   184.8811  3.0565
+educ                 -42.3436    43.5799 -0.9716
+diagMCI             -160.2597   192.7389 -0.8315
+diagAD             -1384.4284   422.4769 -3.2769
+apoe_e4               66.4272   184.0519  0.3609
+time_yr:gfap_slope   -22.8915   818.2662 -0.0280
+
+--- HV_adj ~ time ×  ptau_slope ---
+                      Estimate Std. Error t value
+(Intercept)         12892.5978  1724.2488  7.4772
+time_yr               118.2103    84.8140  1.3938
+ptau_slope         -11307.1676  7946.0229 -1.4230
+age_baseline          -53.2987    18.6516 -2.8576
+female                579.9293   180.7404  3.2086
+educ                  -43.7128    42.6022 -1.0261
+diagMCI              -172.3990   188.4264 -0.9149
+diagAD              -1360.0904   413.0240 -3.2930
+apoe_e4                69.1280   179.8906  0.3843
+time_yr:ptau_slope  -2866.9414   944.7636 -3.0346
+
+=== END SENSITIVITY ===

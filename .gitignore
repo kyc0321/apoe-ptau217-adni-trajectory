@@ -1,0 +1,92 @@
+# =========================================================================
+# CRITICAL — ADNI Data Use Agreement
+# =========================================================================
+# ADNI prohibits redistribution of raw participant-level data.
+# The /ADNI_csv/ folder MUST NOT be committed.
+ADNI_csv/
+*.csv.gz
+*.zip
+
+# Allow specific aggregated, fully de-identified output CSVs (these contain
+# no raw participant-level data — only summary statistics and BLUPs that
+# are not back-identifiable). Whitelist them explicitly.
+!Analysis/outputs/*.csv
+
+# But block any inadvertently-saved raw export files
+Analysis/outputs/*_raw.csv
+Analysis/outputs/individual_*.csv
+
+# =========================================================================
+# Large binary artefacts — host on Zenodo instead of GitHub
+# =========================================================================
+# brms fit objects can be tens of MB each
+Analysis/outputs/*.rds
+Analysis/outputs/*.RData
+
+# R environments
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+
+# =========================================================================
+# OS and editor
+# =========================================================================
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# =========================================================================
+# Python (for the small docx-rendering scripts in /tmp; not normally in repo)
+# =========================================================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# =========================================================================
+# Temp pipeline logs (keep one canonical log per stage; gitignore the rest)
+# =========================================================================
+Analysis/logs/*.log
+!Analysis/logs/.gitkeep
+
+# =========================================================================
+# Word lockfiles
+# =========================================================================
+~$*.docx
+~$*.xlsx
+
+# =========================================================================
+# PDF protocols (large, not needed in code repo; Zenodo can host)
+# =========================================================================
+ADNI_csv/*.pdf
+
+# =========================================================================
+# Abandoned/superseded journal-submission paths and personal correspondence
+# =========================================================================
+# Not relevant to the current (Neurological Sciences) submission -- these are
+# earlier, abandoned attempts (Brain Communications, GeroScience) and contain
+# private editorial correspondence not appropriate for a public repo.
+_BrainCommunications_APCwaiver_archive/
+submit BC*/
+Mauuscripts/
+submit NeurolSci/
+
+# Private decision letters / internal editorial notes -- keep locally, not public.
+LOAD_NeurolSci_R1_Submission/letter from *.docx
+LOAD_NeurolSci_R1_Submission/Response_to_Editor_Comments.md
+
+# Duplicate/oversized figure copies outside the canonical submission Figures/ dir
+/figures/
+Figure1_study_flow.mmd
+
+# Old decision-letter email export (personal correspondence, superseded title)
+Neurological Sciences-0909-2026.docx
+
+# Abandoned-target cover letter/highlights drafts (not the current journal)
+Analysis/*_NBA.docx
+Analysis/*_NBA.md

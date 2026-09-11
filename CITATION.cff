@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or analysis pipeline, please cite both the manuscript and this software archive."
+title: "Plasma GFAP and p-tau217 Trajectories in Older Adults — ADNI Joint Longitudinal Analysis (reproducibility repository)"
+version: 1.1.0
+date-released: "2026-09-11"
+authors:
+  - family-names: Chu
+    given-names: Kuan-Yu
+    orcid: "https://orcid.org/0000-0003-0574-4220"
+    affiliation: "Taipei, Taiwan"
+    email: kyc0321@gmail.com
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Alzheimer's disease
+  - plasma biomarkers
+  - p-tau217
+  - GFAP
+  - APOE
+  - longitudinal
+  - joint model
+  - Bayesian
+  - mediation analysis
+  - ADNI
+references:
+  - type: article
+    title: "APOE ε4 Accelerates Plasma p-tau217 Trajectory: A Bayesian Joint Longitudinal Analysis of ADNI"
+    authors:
+      - family-names: Chu
+        given-names: Kuan-Yu
+    year: 2026
+    notes: "Manuscript under revision (R2), Neurological Sciences (Springer)."
